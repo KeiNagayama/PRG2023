@@ -3,12 +3,12 @@
 - [PRG SEMINAR 01: UNIX](#prg-seminar-01-unix)
 	- [準備：最初に渡す生データの加工](#準備最初に渡す生データの加工)
 	- [0. 生データをざっくり確認](#0-生データをざっくり確認)
-	- [1. 年ごとにデータを分ける](#1-年ごとにデータを分ける)
-	- [2. 年ごとの，気温が20度を超えた時刻の割合](#2-年ごとの気温が20度を超えた時刻の割合)
-	- [3. 年ごとの，平均気温のmin/max/mean/std](#3-年ごとの平均気温のminmaxmeanstd)
-	- [4. 全期間を対象に，気温の前時刻差分時系列を計算](#4-全期間を対象に気温の前時刻差分時系列を計算)
-	- [5. 月平均気温を求める](#5-月平均気温を求める)
-	- [6. 日ごとの統計量を求める](#6-日ごとの統計量を求める)
+	- [1-3. 年ごとにデータを分ける](#1-3-年ごとにデータを分ける)
+	- [4. 年ごとの，気温が20度を超えた時刻の割合](#4-年ごとの気温が20度を超えた時刻の割合)
+	- [5. 年ごとの，平均気温のmin/max/mean/std](#5-年ごとの平均気温のminmaxmeanstd)
+	- [6. 全期間を対象に，気温の前時刻差分時系列を計算](#6-全期間を対象に気温の前時刻差分時系列を計算)
+	- [7. 月平均気温を求める](#7-月平均気温を求める)
+	- [8. 日ごとの統計量を求める](#8-日ごとの統計量を求める)
 	- [補足](#補足)
 
 
@@ -115,7 +115,7 @@ $ cat data/raw/kanazawa2017-2019.csv | awk -F, '{if(NR>1 && $2!="")print $2}' | 
 <center><img src="figure/temperature.png" width=300px></center>
 
 
-## 1. 年ごとにデータを分ける
+## 1-3. 年ごとにデータを分ける
 
 やること
 - 年ごとのディレクトリを作る
@@ -169,7 +169,7 @@ $ for year in {2017..2019}; do cat data/"$year"/kanazawa"$year".csv | awk -F, -v
 ```
 
 
-## 2. 年ごとの，気温が20度を超えた時刻の割合
+## 4. 年ごとの，気温が20度を超えた時刻の割合
 
 結果
 - 2017: 0.330479
@@ -186,7 +186,7 @@ $ for year in 2017 2018 2019; do cat data/"$year"/kanazawa"$year"_min.csv | awk 
 2019: 0.371161
 ```
 
-## 3. 年ごとの，平均気温のmin/max/mean/std
+## 5. 年ごとの，平均気温のmin/max/mean/std
 
 結果
 ```txt
@@ -250,7 +250,7 @@ std: 8.7559
 ```
 
 
-## 4. 全期間を対象に，気温の前時刻差分時系列を計算
+## 6. 全期間を対象に，気温の前時刻差分時系列を計算
 
 やること
 - 3年分の気温のファイルを1つにまとめる
@@ -280,7 +280,7 @@ $ cat data/2017_2019/kanazawa2017-2019_min_diff.csv | gnuplot -p -e "set termina
 <center><img src="figure/temperature_diff.png" width=300px></center>
 
 
-## 5. 月平均気温を求める
+## 7. 月平均気温を求める
 
 ```sh
 $ cat data/2017_2019/kanazawa2017-2019_min.csv | sed 's|/|,|g' | awk -F, -v OFS="," '{month=$1*100+$2; sum[month]+=$5; cnt[month]++}END{for(month in sum)print month,sum[month]/cnt[month]}' > result/monthly_average.csv
@@ -293,7 +293,7 @@ $ head -n5 result/monthly_average.csv
 201705,18.92
 ```
 
-## 6. 日ごとの統計量を求める
+## 8. 日ごとの統計量を求める
 
 ```sh
 $ cat data/2017_2019/kanazawa2017-2019_min.csv | sed 's|/|,|g' | awk -F, -v OFS="," '{date=10000*$1+100*$2+$3; if(min[date]==""){min[date]=$5}; if(max[date]==""){max[date]=$5}; if($5<min[date]){min[date]=$5}; if($5 > max[date]){max[date]=$5}; sum[date]+=$5; sumsq[date]+=$5*$5; cnt[date]++}END{print "date,min,max,mu,std"; for(date in sum){mean=sum[date]/cnt[date]; std=sqrt(sumsq[date]/cnt[date] - mean*mean); print date,min[date],max[date],mean,std}}' | sort -k1,1g > result/daily_stats.csv
