@@ -17,6 +17,10 @@ $ bash install_fish.sh
 $ fish
 ```
 
+初期画面の例
+
+<center><img src="figure/fish_opening.png" width="300px"></center>
+
 fish から bash に戻りたいときは `bash` と打てばよい．
 
 ```sh
