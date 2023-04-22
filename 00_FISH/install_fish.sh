@@ -13,8 +13,9 @@ mv fish/themes ~/.config/fish/
 cat fish/config.fish >> ~/.config/fish/config.fish
 
 # conda のパスを通す
-conda init fish
-
+if type conda > /dev/null 2>&1 ; then
+    conda init fish
+fi
 
 # fish をデフォルト shell にする
 # sudo chsh -s $(which fish)
