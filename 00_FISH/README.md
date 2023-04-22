@@ -31,14 +31,14 @@ Bash に慣れている人向けの補足
 - `~/.bashrc` に対応する設定ファイルは `~/.config/fish/config.fish`
 - 環境変数の定義やfor文など bash/zsh といくつか記法が異なるが，普段使いには困らないはず
 - alias に加えて **abbr** (=abbreviation) という機能が導入されている．使い方は alias と同じだが，abbr はスペースを打つと自動で展開される．例えば
-    ```sh
-    # ~/.config/fish/config.fish
-    abbr -a g g++ -std=c++17
-    ```
+	```sh
+	# ~/.config/fish/config.fish
+	abbr -a g g++ -std=c++17
+	```
   という abbr を設定すると，`g` と打ってスペースを押せば
-    ```sh
-    $ g++ -std=c++17
-    ```
+	```sh
+	$ g++ -std=c++17
+	```
   のようにコマンドを置き換えてくれる．もちろん編集可能．コマンドの可読性が上がるので alias の代わりに abbr の使用をオススメする．
 
 
@@ -56,21 +56,21 @@ $ echo $SHELL
 
 - bash -> fish
 
-    ```sh
-    $ which fish
-    /usr/bin/fish
+	```sh
+	$ which fish
+	/usr/bin/fish
 
-    $ chsh -s /usr/bin/fish
-    ```
+	$ chsh -s /usr/bin/fish
+	```
 
 - fish -> bash
 
-    ```sh
-    $ which bash
-    /usr/bin/bash
+	```sh
+	$ which bash
+	/usr/bin/bash
 
-    $ chsh -s /usr/bin/bash
-    ```
+	$ chsh -s /usr/bin/bash
+	```
 
 
 ## Fish のテーマを変える
@@ -79,22 +79,113 @@ $ echo $SHELL
 
 - 前
 
-    ```sh
-    # fish_config theme choose "Dracula Official"
-    ```
+	```sh
+	# fish_config theme choose "Dracula Official"
+	```
 - 後
-    ```sh
-    fish_config theme choose "Dracula Official"
-    ```
+	```sh
+	fish_config theme choose "Dracula Official"
+	```
 
 `~/.config/fish/config.fish` などの設定ファイルの編集は vim や emacs 等のターミナル上で開けるエディタを使うと楽だが，初学者には難しい．そこで，設定ファイル等をテキストエディタアプリで開く方法をいくつか書いておく．
 
 1. File Explorer から探して開く（面倒）
 2. 1 を Ubuntu から実行する
-    ```sh
-    $ explorer.exe ~/.config/fish/config.fish
-    ```
+	```sh
+	$ explorer.exe ~/.config/fish/config.fish
+	```
 3. Ubuntu から vscode を立ち上げて開く
-    ```sh
-    $ code ~/.config/fish/config.fish
-    ```
+	```sh
+	$ code ~/.config/fish/config.fish
+	```
+
+
+## MacOSへのインストール
+
+Apt コマンドがあるなら上と同じ方法でインストールできる．
+
+しかし，M1チップで apt コマンドが使えない現象が発生する．
+> https://discussions.apple.com/thread/253451403
+
+Homebrewから入れる
+> https://zenn.dev/meihei/articles/390d6dbbb4c936
+
+Homebrew の入れ方
+
+- Command Line Tools (CLT) for Xcode を入れる
+
+	```sh
+	$ xcode-select --install
+	```
+
+- brew のインストール
+
+	```sh
+	$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+	```
+
+	コマンドを実行すると，最後の方に以下のようなコマンドを実行するように言われる．表示されたコマンドをコピーして実行する．
+
+	```sh
+	$ echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/[your-user-name]/.zprofile
+	$ eval "$(/opt/homebrew/bin/brew shellenv)"
+	```
+
+	brew が入っていることを確認
+
+	```sh
+	$ brew --version
+	```
+
+- fish のインストール
+
+	```sh
+	$ brew install fish
+	```
+
+	コマンドを実行すると，最後の方に以下のようなコマンドを実行するように言われる．表示されたコマンドをコピーして実行する．インストールされた fish コマンドのパスを確認しよう．
+
+	```sh
+	$ which fish
+	```
+
+	- `/opt/homebrew/bin/fish` と出た場合
+		
+		fish のパスを追加
+
+		```sh
+		$ fish_add_path /opt/homebrew/bin
+		```
+
+		fish シェルを標準シェルに追加
+
+		```sh
+		$ echo /opt/homebrew/bin/fish | sudo tee -a /etc/shells
+		```
+
+		デフォルトシェルを fish に変更
+		
+		```sh
+		$ chsh -s /opt/homebrew/bin/fish
+		```
+
+	- `/usr/local/bin/fish` と出た場合
+
+		fish のパスを追加
+
+		```sh
+		$ fish_add_path /usr/local/bin/
+		```
+
+		fish シェルを標準シェルに追加
+
+		```sh
+		$ echo /usr/local/bin/fish | sudo tee -a /etc/shells
+		```
+
+		デフォルトシェルを fish に変更
+		
+		```sh
+		$ chsh -s /usr/local/bin/fish
+		```
+
