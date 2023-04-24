@@ -5,4 +5,3 @@
 abbr -a g g++ -std=c++17
 abbr -a j jupyter-lab --no-browser
 abbr -a p python
-# abbr -a exe explorer.exe # for wsl
