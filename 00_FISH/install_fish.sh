@@ -5,7 +5,7 @@ sudo apt-add-repository ppa:fish-shell/release-3
 sudo apt update
 sudo apt install fish
 
-# fish/functions を追加する
+# fish の設定を反映する
 cp -r fish/ ~/.config/
 
 # conda のパスを通す
