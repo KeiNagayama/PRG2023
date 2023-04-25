@@ -21,10 +21,10 @@ std::vector<std::string> split(std::string str, char delim = ',')
 // パスで指定したcsvファイルを読み込む
 std::vector<std::vector<std::string>> read_csv(std::string path)
 {
+    std::vector<std::vector<std::string>> data;
     std::ifstream ifs(path);
     std::string line;
-    std::vector<std::vector<std::string>> data;
-    while (std::getline(ifs, line))
+    while (std::getline(ifs, line, '\n'))
         data.push_back(split(line, ','));
     return data;
 }
