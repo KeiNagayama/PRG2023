@@ -8,6 +8,7 @@
 この `README.md` が置いてあるディレクトリ（`00_FISH/`）に移動し，`install_fish.sh` ファイルを実行すると fish がインストールされる．途中，`sudo` コマンドを使うために Ubuntu のパスワードが要求される．
 
 ```sh
+$ cd 00_Fish/
 $ bash install_fish.sh
 ```
 

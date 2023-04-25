@@ -3,11 +3,11 @@
 # fish を入れる
 sudo apt-add-repository ppa:fish-shell/release-3
 sudo apt update
-sudo apt instal fish
+sudo apt install fish
 
 # fish/functions を追加する
-mv fish/functions ~/.config/fish/
-mv fish/themes ~/.config/fish/
+cp -r fish/functions ~/.config/fish/
+cp -r fish/themes ~/.config/fish/
 
 # config.fish に設定を追加する
 cat fish/config.fish >> ~/.config/fish/config.fish
@@ -18,4 +18,4 @@ if type conda > /dev/null 2>&1 ; then
 fi
 
 # fish をデフォルト shell にする
-# sudo chsh -s $(which fish)
+# chsh -s $(which fish)
