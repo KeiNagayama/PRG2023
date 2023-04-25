@@ -3,7 +3,6 @@
 #include <sstream>  // 文字列の分解に使う
 #include <string>
 #include <vector>
-#include <map>   // 連想配列，辞書
 #include <cmath> // sqrt
 
 // 1つの文字列を区切り文字で分割し，vectorに格納する
