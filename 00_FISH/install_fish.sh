@@ -6,7 +6,7 @@ sudo apt update
 sudo apt install fish
 
 # fish の設定を反映する
-cp -r fish/ ~/.config/
+cp -r fish ~/.config
 
 # conda のパスを通す
 if type conda > /dev/null 2>&1 ; then
