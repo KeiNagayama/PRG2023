@@ -1,15 +1,15 @@
 function fish_greeting
 
-       # draw a fish
-       fish_logo
+       # draw a default fish
+       # fish_logo
 
        # =======================
        # color randomization
        # =======================
 
        # draw a colorful fish
-       # set col (for i in (seq 3); random choice {0,f}{0,f}{0,f}; end)
-       # fish_logo $col l x
+       set col (for i in (seq 3); random choice {0,f}{0,f}{0,f}; end)
+       fish_logo $col l x
 
        # show python's zen
        # set i (random choice (seq 1 19))
