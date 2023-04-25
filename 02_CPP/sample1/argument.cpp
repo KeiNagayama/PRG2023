@@ -8,7 +8,6 @@ void print_partition(int length = 30)
         std::cout << '=';
     }
     std::cout << std::endl;
-    /* 省略 */
 }
 
 int main(int argc, char *argv[])
