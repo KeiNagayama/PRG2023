@@ -99,6 +99,13 @@ $ echo $SHELL
 	$ code ~/.config/fish/config.fish
 	```
 
+## VSCodeのデフォルトシェルをfishに変える
+
+コマンドパレットを開き (ctrl+shift+P)，
+```
+> Terminal: Select Default Profile
+```
+と入力して選ぶと，シェルが選択できるようになる．ここでfishを選択する．
 
 ## MacOSへのインストール
 

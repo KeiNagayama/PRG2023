@@ -1,5 +1,5 @@
 # fish theme
-# fish_config theme choose "Dracula Official"
+fish_config theme choose "Dracula Official"
 
 # environment
 abbr -a g g++ -std=c++17
