@@ -11,11 +11,19 @@ std::vector<int> generate_serial_numbers(int n)
     return v;
 }
 
+// void output_vector(std::vector<int> &v)
+// {
+//     for (int i = 0; i < v.size(); i++)
+//     {
+//         std::cout << v[i] << std::endl;
+//     }
+// }
+
 void output_vector(std::vector<int> &v)
 {
-    for (int i = 0; i < v.size(); i++)
+    for (auto x : v)
     {
-        std::cout << v[i] << std::endl;
+        std::cout << x << std::endl;
     }
 }
 

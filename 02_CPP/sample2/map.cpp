@@ -12,11 +12,19 @@ std::map<std::string, double> store_exchange_rate()
     return rate;
 }
 
+// void output_map(std::map<std::string, double> &mp)
+// {
+//     for (auto p = mp.begin(); p != mp.end(); p++)
+//     {
+//         std::cout << p->first << ": " << p->second << std::endl;
+//     }
+// }
+
 void output_map(std::map<std::string, double> &mp)
 {
-    for (auto p = mp.begin(); p != mp.end(); p++)
+    for (auto [key, value] : mp)
     {
-        std::cout << p->first << ": " << p->second << std::endl;
+        std::cout << key << ": " << value << std::endl;
     }
 }
 
