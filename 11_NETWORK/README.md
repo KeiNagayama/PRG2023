@@ -1,0 +1,3 @@
+# PRG SEMINAR 11: NETWORK
+
+BAモデルだけ先に実装．
