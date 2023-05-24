@@ -9,7 +9,7 @@
 - [02: CPP](/02_CPP)
 - [03: PLOT](/03_PLOT)
 - [04: REGRESSION](/04_REGRESSION)
-- [05: REGRESSION](/05_RANDOM)
+- [05: RANDOM](/05_RANDOM)
 
 
 ## Appendix
