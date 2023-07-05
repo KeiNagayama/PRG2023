@@ -1,0 +1,4000 @@
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+0
+0
+3
+0
+0
+0
+0
+0
+0
+0
+0
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+0
+0
+0
+0
+1
+0
+0
+0
+0
+2
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+0
+0
+2
+0
+0
+0
+0
+0
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+3
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+0
+2
+0
+2
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+0
+0
+0
+0
+5
+0
+0
+0
+0
+0
+2
+0
+0
+1
+1
+0
+0
+0
+0
+0
+0
+0
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+6
+0
+0
+0
+1
+0
+0
+0
+0
+0
+0
+0
+0
+1
+1
+1
+0
+1
+0
+0
+0
+0
+0
+2
+0
+7
+0
+0
+0
+0
+0
+0
+0
+0
+1
+0
+0
+0
+0
+0
+1
+0
+0
+0
+0
+2
+0
+1
+0
+2
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+1
+0
+0
+0
+0
+0
+0
+0
+8
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+3
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+0
+2
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+1
+0
+0
+0
+0
+0
+0
+0
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+3
+2
+0
+0
+0
+0
+0
+1
+0
+0
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+1
+0
+0
+0
+1
+9
+0
+3
+2
+0
+1
+0
+0
+0
+4
+0
+0
+0
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+2
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+10
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+2
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+3
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+2
+0
+0
+1
+0
+0
+0
+0
+0
+5
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+2
+2
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+0
+0
+1
+0
+0
+0
+4
+0
+0
+0
+0
+0
+0
+0
+0
+11
+1
+2
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+0
+0
+0
+0
+1
+3
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+2
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+2
+0
+0
+0
+1
+0
+0
+0
+0
+0
+0
+1
+0
+3
+0
+0
+0
+0
+0
+0
+12
+0
+0
+5
+0
+0
+0
+0
+0
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+0
+0
+0
+0
+1
+0
+0
+1
+3
+0
+0
+0
+0
+4
+0
+1
+0
+1
+3
+0
+0
+0
+2
+0
+2
+4
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+0
+0
+0
+0
+1
+2
+0
+0
+0
+0
+1
+0
+0
+5
+0
+0
+0
+1
+0
+0
+0
+0
+2
+0
+0
+0
+1
+0
+0
+0
+1
+1
+1
+0
+0
+0
+0
+0
+0
+0
+0
+6
+1
+0
+0
+0
+0
+0
+1
+0
+1
+1
+1
+0
+0
+0
+3
+0
+0
+0
+0
+1
+0
+0
+0
+1
+0
+0
+0
+0
+0
+0
+3
+2
+2
+0
+0
+0
+0
+1
+0
+0
+0
+0
+0
+2
+1
+0
+3
+0
+0
+0
+0
+0
+0
+0
+0
+2
+0
+0
+0
+0
+2
+0
+7
+0
+0
+3
+0
+0
+0
+4
+0
+0
+1
+6
+0
+0
+0
+1
+1
+0
+0
+3
+0
+0
+13
+0
+0
+0
+0
+0
+0
+4
+0
+1
+0
+0
+0
+0
+0
+0
+0
+0
+2
+1
+0
+0
+1
+0
+1
+3
+0
+0
+0
+5
+2
+0
+0
+0
+0
+1
+2
+0
+0
+0
+0
+0
+2
+3
+3
+2
+0
+8
+2
+0
+0
+0
+2
+0
+0
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+2
+0
+1
+0
+0
+0
+0
+0
+1
+0
+0
+0
+0
+1
+14
+1
+0
+0
+0
+0
+2
+1
+3
+4
+4
+0
+0
+0
+0
+0
+0
+0
+2
+0
+1
+7
+0
+0
+0
+0
+2
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+0
+0
+0
+1
+0
+0
+0
+0
+0
+8
+0
+0
+0
+0
+0
+0
+0
+2
+0
+0
+2
+4
+5
+5
+0
+0
+0
+2
+9
+1
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+0
+0
+0
+8
+0
+0
+0
+0
+0
+0
+1
+0
+0
+0
+1
+1
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+2
+1
+0
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+2
+0
+0
+0
+0
+0
+2
+0
+0
+0
+0
+1
+0
+3
+5
+6
+6
+0
+0
+3
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+3
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+6
+7
+7
+2
+1
+0
+0
+0
+0
+0
+0
+0
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+2
+0
+0
+0
+0
+0
+0
+0
+3
+3
+0
+0
+0
+0
+0
+2
+1
+0
+0
+1
+3
+1
+0
+0
+0
+0
+0
+1
+0
+0
+0
+0
+0
+0
+4
+4
+4
+0
+2
+2
+0
+0
+0
+0
+0
+5
+5
+0
+0
+0
+2
+2
+2
+0
+0
+1
+0
+0
+0
+0
+9
+0
+0
+0
+0
+0
+4
+3
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+0
+0
+1
+1
+1
+3
+0
+0
+0
+1
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+2
+1
+1
+1
+0
+0
+0
+0
+1
+0
+0
+0
+0
+3
+0
+0
+0
+0
+0
+2
+0
+0
+5
+0
+1
+0
+0
+0
+0
+0
+0
+6
+0
+0
+0
+0
+4
+0
+0
+0
+0
+2
+0
+10
+1
+1
+0
+0
+15
+0
+0
+1
+1
+1
+2
+0
+0
+1
+0
+0
+6
+6
+0
+4
+0
+0
+0
+0
+0
+0
+0
+0
+0
+10
+0
+0
+1
+1
+0
+0
+10
+0
+2
+5
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+2
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+2
+0
+0
+11
+3
+0
+0
+1
+12
+0
+0
+0
+0
+1
+0
+2
+0
+1
+5
+6
+4
+0
+0
+12
+0
+0
+0
+0
+0
+0
+1
+2
+0
+0
+1
+0
+1
+6
+0
+1
+0
+5
+0
+0
+3
+3
+3
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+0
+0
+0
+1
+3
+0
+1
+1
+1
+0
+0
+0
+0
+4
+4
+0
+0
+3
+0
+0
+0
+0
+0
+0
+0
+2
+0
+0
+3
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+0
+0
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+1
+1
+1
+0
+0
+0
+0
+0
+1
+0
+0
+0
+0
+0
+3
+0
+harry manages
+of school
+as forehead
+conspicuously deep
+in place
+concern including
+to win
+action mostly
+finally piece
+classical mythology
+attempting world
+form instead
+ron weasley
+confrontation with
+remaining voldemort's
+all the
+exciting yet
+lupin remus
+as brown
+prince voldemort
+order to
+crouch jr
+generally magic
+ancient monster
+lord with
+describes epilogue
+diary the
+problems the
+a attracted
+indirectly the
+him kept
+about learn
+of out
+to way
+had its
+have they
+culminates in
+prejudice that
+he hogwarts
+his through
+rowling to
+been have
+elder wand
+ill ron
+adult literature
+phoenix the
+ridding the
+harry's with
+voldemort's younger
+and subjugate
+against the
+and graphic
+a mysterious
+second violent
+orders voldemort's
+believe that
+dark dementors
+this to
+also books
+necessary the
+wizarding world
+exhibition that
+a works
+dumbledore's on
+book second
+develops harry
+barty crouch
+been hiding
+a pretentious
+secrets unleashing
+introduced is
+harry help
+as audience
+events the
+and in
+by rowling
+attack dumbledore
+in various
+scotland that
+his to
+invented others
+a becomes
+hogwarts student
+fantasy novels
+has he
+popular the
+disguise in
+in other
+and is
+are forced
+ginny weasley
+and it
+and wizards
+can they
+constantly he
+enemies with
+describing secrets
+be revealed
+hagrid world
+death other
+and dumbledore
+defensive lessons
+manages to
+ability innate
+cheerful self
+voldemort who
+a pensieve
+into metal
+poor wizarding
+and attack
+chamber of
+and voldemort
+desperate uncle's
+harry potter
+a investigate
+environment the
+defenders the
+in notebook
+war with
+slipped the
+countries other
+the while
+all been
+best were
+teach that
+british the
+many with
+keeper of
+grant the
+with world
+past the
+learns trio
+dumbledore who
+an world
+brother older
+academy in
+originally published
+and counter
+terror was
+philosopher's the
+found have
+members with
+elements of
+lose to
+closest friends
+and horror
+magical their
+dating ginny
+a fraud
+self who
+substance that
+and inborn
+novel the
+difficulties the
+hagrid servant
+one year
+harry teaches
+and muggles
+conflict voldemort's
+rowling while
+beings magical
+from period
+as harry
+peter pettigrew
+father ginny's
+from muggles
+known wizard
+challenges teenage
+readers younger
+lives who
+and turns
+harry viewing
+most the
+and manors
+at him
+of voldemort's
+includes which
+body known
+success the
+know to
+also he
+primary the
+a half
+alchemy and
+an epilogue
+book harry
+conflict open
+lucius reveals
+best friend
+each war
+british school
+beginning of
+throughout used
+2009 a
+faces voldemort
+subject to
+chamber the
+in the
+flashbacks which
+parks universal
+on which
+and grounds
+avada curse
+forest who
+near the
+first year
+muggle population
+after directly
+from that
+by invented
+script was
+land of
+black was
+him like
+real the
+classical folklore
+own rebounding
+memories parents'
+corridor dark
+harry the
+newly resurfaced
+age of
+she teacher
+and diary
+environment rowling
+a gifted
+culture european
+500 than
+blood half
+contest exciting
+lives of
+black is
+although the
+and contains
+as younger
+an ancient
+lucius malfoy
+harry vain
+one potter
+half titular
+the timely
+dark family
+many of
+many other
+black were
+wizard young
+control gained
+champion hogwarts
+the use
+facade later
+legend living
+of their
+at study
+reality the
+continues franchise
+first the
+harry must
+happened unexpected
+skills to
+relationships romantic
+books seven
+against lord
+body in
+is mystery
+severus snape
+school's the
+instead well
+climax novel's
+alternate universe
+and centaurs
+was which
+lessons private
+intends to
+british by
+and black
+background magical
+horcruxes the
+is snape
+and ron
+a witch
+lord of
+a wizarding
+author british
+considered cornerstones
+does not
+keeper the
+copies worldwide
+destroyed diary
+other the
+period the
+is series
+corridor in
+pettigrew who
+baby he
+adult audience
+characters major
+survived with
+and includes
+on worked
+harry magic
+country west
+in secrecy
+been placed
+been built
+continues to
+activates re
+belongings which
+book first
+a digital
+related uncannily
+genres many
+spells the
+black sirius
+friend peter
+establishes ron
+and saving
+and uncle's
+his voldemort
+harry hogwarts
+begins dating
+into tricked
+comes to
+dark wizards
+adapted were
+beginning the
+and its
+magic plants
+harry of
+both that
+later monster
+given is
+school story
+by dumbledore
+an escaped
+at look
+preserve to
+ron's younger
+any metal
+and for
+quirinus teacher
+begins to
+life with
+harry's of
+harry on
+also introduces
+hagrid reveals
+face him
+by series
+had who
+at wizards
+significant some
+appoints ministry
+from overseas
+him treated
+ministry of
+instead the
+and great
+detailed school
+mystery that
+as durmstrang
+encounters the
+beings comprises
+fly on
+has joined
+a army
+home to
+also harry
+friends hermione
+have to
+any in
+such wildlife
+and aunt
+as sleep
+an finds
+recent to
+also encounters
+draco malfoy
+1991 to
+anxiety depression
+magic with
+he school
+brat rich
+him safe
+confrontation the
+begins directly
+horcruxes of
+conflict the
+marks the
+dementors the
+of power
+most powerful
+in it
+contact first
+exclusive magic
+so that
+events sinister
+books the
+one under
+and bright
+an in
+innate the
+in parallel
+difficulties of
+created rowling
+at student
+collect to
+are relatively
+confining including
+action the
+appoints dolores
+body physical
+level the
+hogwarts the
+developments most
+highest second
+an is
+attracted have
+legendary three
+marvolo tom
+harry terror
+and fred
+destroy voldemort's
+book leaps
+romance the
+drop out
+goblet the
+fourth their
+another for
+alumnus's diary
+even remarkable
+into seventy
+teachers the
+prince this
+books were
+description of
+magic school
+novel of
+and power
+escaped mass
+hogwarts school
+immortal overthrow
+dangerous various
+him land
+hermione's suggestion
+new their
+are efforts
+family wizarding
+and find
+to warn
+a body
+premiered that
+eventually mother
+efforts to
+for seven
+bestows everlasting
+confrontation second
+and themes
+death the
+classmates the
+most where
+is it
+main theme
+second the
+are characters
+some view
+a of
+able to
+related to
+muggles the
+teacher who
+an old
+locations used
+has learned
+of witch
+age eleven
+at students
+on teenagers
+causing student
+ancient large
+a on
+attempting to
+none of
+derogatory term
+in placed
+at grounds
+expand to
+and faces
+do not
+attempts to
+drawing near
+and event
+amusement resorts
+another hogwarts
+forehead his
+life of
+evil horcruxes
+fantasy the
+franchises of
+brown lavender
+efforts their
+during the
+of pentalogy
+eventually revealed
+hagrid then
+country manors
+a casts
+he magic
+depression stress
+descended were
+broomsticks the
+harry invites
+acclaim and
+chang juggling
+into the
+harry history
+and witch
+are killed
+enchanted items
+a physical
+of orders
+as entered
+by their
+about an
+a establishes
+harry warfare
+quest to
+players where
+philosopher's stone
+body governing
+and teachers
+are subject
+culprit the
+powerful wand
+of that
+adult young
+they worldwide
+him in
+be the
+ancient pubs
+allow the
+supporters voldemort's
+at is
+and eaters
+a recurring
+is the
+at it
+riddle tom
+broomsticks on
+relationships schoolwork
+magical social
+for him
+a memento
+aunt his
+are often
+draco's father
+master severus
+ahead lies
+character in
+in london
+who witches
+reveal these
+him various
+begins waging
+is then
+prisoner the
+as tone
+his split
+potions textbook
+the to
+includes many
+conjunction in
+through wizards
+but poor
+dursleys separate
+spells that
+for his
+attack the
+response to
+regain to
+servant their
+and meals
+dursleys who
+friendships infatuation
+by english
+inquisitor of
+instalment selling
+defend to
+elements ordinary
+states united
+book selling
+kills those
+learns that
+2015 august
+friends to
+1998 to
+of one
+magical parentage
+and marries
+of source
+emphasised in
+ginny saving
+chapter introductory
+more sold
+as past
+fourth year
+age his
+lupin teaches
+of ron
+and life
+abilities such
+become has
+history in
+potions school's
+of scholastic
+real world
+increasingly violent
+fastest the
+a crush
+emphasised is
+seventeen with
+attend hogwarts
+event has
+as depicts
+a substance
+lasts more
+direct eye
+and orders
+harry's history
+ensure to
+enrolls weasley
+develops through
+ability is
+people since
+at which
+murderer who
+of versions
+in lives
+of some
+begins which
+as the
+despair on
+european folklore
+the world
+murder the
+enrolls in
+children of
+have who
+all subjugate
+mystery of
+of overlooked
+chang cho
+learn ways
+reader the
+bloomsbury in
+defenders of
+and attractive
+at directed
+in scotland
+his third
+apparent that
+exists in
+in voldemort
+destroying harry
+palace the
+united when
+a develop
+and attacked
+and torturing
+in southeast
+mystery the
+casts who
+himself surrenders
+disease harry
+everyday life
+expand with
+series the
+keys of
+including ordinary
+both lupin
+british culture
+lord wizard
+intimately is
+into pieces
+creating pieces
+confront the
+bent on
+eleven of
+supposedly would
+allowing connection
+students the
+belongings ginny's
+person the
+prominent voice
+juggling schoolwork
+novel third
+his in
+records set
+an into
+dangerous magical
+annotations many
+the trio
+magical world
+aunt harry's
+learns to
+series was
+human soul
+country devon
+and who
+harry's mother
+each from
+about prophecy
+alchemy incorporating
+fastest selling
+titled writer
+as friendships
+his previous
+assisted who
+1998 the
+derivative numerous
+making worldwide
+named supporters
+in legend
+it with
+hagrid rubeus
+about details
+family home
+but happy
+newly the
+event this
+as muggles
+at hogwarts
+it kills
+a phoenix
+a wizardry
+joined with
+it opens
+england the
+is theme
+hallows three
+filled textbook
+harry parentage
+dumbledore the
+danger that
+a burning
+and belongings
+school the
+a pentalogy
+curse rebounds
+snape's true
+billion making
+ascension his
+his life
+the west
+defensive harry's
+dangerous yet
+deal must
+associated with
+among many
+destroyed in
+it world
+he reaches
+is their
+lightning shaped
+jk which
+a fun
+created is
+war wizarding
+contagious disease
+into school
+place take
+dumbledore re
+greater test
+muggle world
+and brown
+defeat to
+beauxbatons schools
+murder of
+fly players
+a displays
+london on
+lives the
+his preserve
+scar shaped
+british magical
+problems that
+the transforms
+confide to
+champion in
+ginny sister
+of preparing
+in telepathically
+is reader
+all of
+is killed
+as parents
+however world
+novel's the
+plan voldemort's
+him kill
+at events
+him magical
+avada kedavra
+items those
+rich the
+a conspicuously
+forbidden forest
+by executed
+azkaban follows
+muggle the
+a source
+against voldemort's
+a human
+harry potter's
+eleven that
+anxiety exams
+harry near
+she transforms
+and characters
+isolate to
+society which
+of world
+important prophecy
+encounters with
+reappearance voldemort's
+fire harry
+are students
+best father's
+defensive spell
+he witnessed
+horace master
+causing harry's
+is tricked
+in opened
+co written
+new potions
+when years
+a series
+also is
+also it
+before shortly
+at discovers
+an attempt
+known well
+is rare
+an english
+criticism of
+continue to
+horcruxes remaining
+hidden items
+lives sirius
+concerning prophecy
+incessant umbridge's
+by killed
+displays who
+fun loving
+locations primary
+been translated
+orders the
+and books
+land to
+educates young
+its script
+discredit dumbledore
+and world
+exists world
+rowling the
+for search
+piece together
+malfoy whom
+novels written
+from sirius
+harry lessons
+champion from
+last the
+of wave
+novels the
+refuses to
+mystery old
+explore to
+challenges such
+bros pictures
+facade pretentious
+as curse
+a meets
+such with
+of series
+elder the
+be searching
+hogwarts of
+discovers who
+intends who
+mysterious writer
+harry phoenix
+turns which
+many to
+community magical
+ministry the
+black his
+of warn
+are well
+english in
+forms harry
+its of
+of share
+on scar
+defend students
+by voldemort
+petrifies those
+beside stone
+are which
+infatuation romantic
+direct make
+of potency
+harry him
+his house's
+later who
+about the
+30 july
+private takes
+open warfare
+one school
+be voldemort's
+sorcerer's the
+book series
+cup this
+gain to
+officially then
+and unlock
+harry petrified
+finally ron
+describing term
+harry has
+death nicknamed
+opens the
+in press
+under united
+pet ron's
+sister younger
+author j
+harry surrenders
+own their
+inside of
+he is
+and trouble
+his quest
+book fifth
+ancient prophecy
+especially harry
+of value
+battle of
+level skills
+rings' the
+succeed to
+starts to
+closest two
+remarkable very
+education it
+his parents'
+fourth harry's
+on voldemort's
+first her
+to yearns
+he whom
+first his
+dumbledore with
+alastor mad
+directed often
+cultural many
+book on
+lessons those
+is tournament
+from works
+alternate an
+chronicle the
+and readers
+and items
+sixth the
+ostensibly protecting
+and unconsciously
+harry to
+creatures the
+are that
+of part
+a strong
+her wipes
+teenagers' the
+into open
+the updates
+concern of
+known people
+are they
+and puzzles
+his magical
+numerous with
+father to
+of witches
+search they
+and incessant
+hiding ron's
+and uncle
+comes harry
+face friends
+climax harry
+distance themselves
+age and
+and friends
+from their
+of tom
+a basilisk
+in school
+muggle relatives
+his secrecy
+parallel to
+counter to
+chapter the
+event so
+crouch have
+harry year
+mudbloods of
+despite harry's
+of those
+professor snape
+age harry
+in vain
+he lives
+book eighth
+master the
+concerning the
+secrets with
+an be
+a dictatorial
+to voldemort
+a student
+most recently
+in voice
+in jr
+and cousin
+death is
+in premiered
+killing the
+group study
+this year
+bring to
+magical versions
+all time
+harry's struggle
+and undertakes
+a horcrux
+point this
+draco who
+on their
+relatives the
+point that
+because but
+horcruxes to
+each with
+and learns
+grant supposedly
+black's sirius
+and destroy
+ron's school
+shows who
+and beauxbatons
+memory the
+and that
+also discovers
+her possess
+curse killing
+to tournament
+second year
+each novel
+every in
+book this
+only with
+obsessed power
+deathly the
+harry's life
+coming of
+of success
+conflict in
+and minions
+education magical
+speak to
+horcruxes whose
+of order
+resides riddle
+a cupboard
+disappeared soon
+several universal
+by followed
+in this
+diary voldemort
+continues series
+be to
+grossing media
+it violence
+any form
+children with
+hours of
+an eight
+in that
+connection painful
+a defence
+america and
+most prominent
+conceited wizard
+final the
+are in
+original the
+although harry
+from shift
+information new
+lacking novel
+and scholastic
+and wizardry
+after surrender
+are friends
+followers voldemort's
+arts that
+bright gifted
+creatures several
+a sport
+meals without
+orphaned the
+the within
+end of
+make who
+50 a
+snape who
+events of
+able is
+on ridding
+a to
+a themselves
+a wizard
+been targeted
+master of
+language snake
+depicts it
+dark the
+his two
+harry prepares
+by inspired
+and hermione's
+his people
+creatures dark
+middle rings'
+by signed
+a participant
+a derogatory
+gains his
+kill to
+defend hogwarts
+enchanted evil
+disturbing dreams
+confront must
+attractions collectively
+re voldemort
+conceited self
+and finds
+quirrell who
+by two
+more than
+a lupin
+and soul
+muggles non
+and theatre
+the them
+harry play
+face off
+those through
+many others
+description harry's
+gilderoy lockhart
+constantly receives
+afterwards soon
+book culminates
+overseas visiting
+by targeted
+even muggles
+father his
+introduced the
+horace slughorn
+high the
+dislike for
+himself reveals
+beside others
+past potter's
+a talent
+ensured that
+death his
+efforts persistent
+classmates his
+father's his
+allied with
+giant half
+second wizarding
+in succeed
+$25 at
+a dark
+a lightning
+hidden in
+by peter
+as place
+fellow hogwarts
+albeit hidden
+does which
+voldemort whose
+has who
+point the
+abiding and
+dursleys the
+and have
+is potter
+keeper would
+phoenix saves
+drama fantasy
+revealed to
+and pettigrew
+films premiering
+possess to
+later riddle
+and harry
+and father
+with wizard
+and references
+harry horcrux
+the titled
+at however
+ghoul pretends
+lasts whom
+graphic violence
+apparent is
+2012 in
+has voldemort
+fantasy including
+as time
+in novel
+gleaning harry
+and social
+is unwillingly
+of talent
+defensive harry
+remus to
+items legendary
+feelings romantic
+higher level
+series which
+friends his
+at estimated
+a secret
+in response
+a against
+murder parents'
+introductory the
+along with
+and gruesome
+subsequently who
+compete must
+plants potions
+emotional including
+and granger
+its share
+and when
+from years
+and hallows
+and emotional
+and well
+become immortal
+of year
+members of
+in tour
+according to
+an important
+guided is
+develop romantic
+arts dark
+parallel within
+resurfaced voldemort
+albus wizard
+forward to
+books consecutively
+and ginny
+lies that
+as snape's
+defence of
+cupboard without
+britain's wizarding
+schools that
+characters surviving
+exists prejudice
+and surrey
+by little
+background begins
+becomes harry
+learn to
+and foreboding
+a werewolf
+he voldemort
+at built
+and venerable
+history school's
+of skills
+teach to
+his unpleasant
+& resorts
+arts when
+madness the
+off rebounds
+lavender student
+success worldwide
+only the
+is recruited
+harry with
+may of
+champions one
+eleventh potter's
+and the
+aimed group
+and friend
+magic schools
+film grossing
+films has
+of paranoia
+a famous
+as him
+indirectly it
+2016 november
+26 june
+co story
+magic of
+ascension to
+book reveals
+eleven to
+as known
+champions three
+hermione marries
+potency the
+and broomsticks
+first novel
+eventually snape
+and regime
+targets voldemort's
+is voldemort
+about concern
+adolescence harry
+accessible to
+developments other
+hagrid's help
+london that
+chicago in
+the unlock
+a stone
+as magic
+an unleashing
+around the
+based on
+handy invisibility
+later turning
+the when
+is there
+and films
+goblet of
+a destroying
+a baby
+30 on
+and awakens
+his own
+background full
+and eventually
+power to
+killing voldemort's
+early the
+immense popularity
+enemies makes
+that when
+desperate prevention
+place taken
+1990s by
+but slughorn
+followers nicknamed
+dark with
+often the
+moody who
+as hogwarts
+also contain
+1997 june
+lupin werewolf
+and birthday
+some that
+rat scabbers
+exists potter
+life the
+a story
+the through
+and hidden
+ron's weasley
+dumbledore of
+forward leaps
+in wizarding
+attractions themed
+another the
+infatuation strong
+from voldemort's
+attend to
+found immense
+often was
+kingdom united
+harry novel
+early population
+copies million
+a into
+attacking students
+confide in
+2015 in
+fred weasley
+2016 the
+dark tone
+forbidden the
+and refuses
+from themselves
+languages the
+an desire
+schools visiting
+into pure
+and deep
+a called
+a have
+and exams
+arc story
+azkaban of
+by harry
+all to
+pensieve the
+to view
+death harry
+crouch use
+feature lord
+invites officially
+in themes
+and death
+from hogwarts
+drawing war
+lives with
+against defence
+making them
+narnia of
+numerous themes
+foreboding from
+according and
+attacked is
+opens unconsciously
+and universe
+defend themselves
+book into
+that they
+although succeeds
+his that
+believe to
+a part
+fight on
+forced to
+filled with
+three where
+abiding dislike
+him torturing
+in november
+enters the
+elements includes
+characters the
+the third
+including poorly
+though wizard
+a travelling
+of witchcraft
+infatuation with
+and gains
+isolate themselves
+also learns
+harry's off
+participating school
+concludes with
+and wildlife
+2016 in
+after series
+harry muggles
+it of
+flashbacks many
+defence new
+by warner
+entered unwillingly
+story which
+harry instead
+confrontation that
+against themselves
+master potions
+2016 at
+killing voldemort
+an given
+and revealed
+look who
+a comprises
+reality to
+roughly selling
+against off
+dolores umbridge
+england southeast
+the viewing
+estimated was
+been destroyed
+arrival of
+him shows
+his reaction
+about learns
+appears uncannily
+history with
+based child
+refuse to
+protecting the
+for good
+in published
+had harry
+broomsticks centaurs
+deal with
+learning that
+attend exclusive
+family their
+and feed
+gain the
+has taken
+1991 from
+corruption prejudice
+k rowling
+diary for
+background to
+teach the
+derivative works
+children the
+in trouble
+order the
+enters re
+harry world
+exhibition travelling
+his soul
+a lockhart
+reign voldemort's
+of prevention
+from protected
+series' shift
+power the
+open waging
+death voldemort's
+to voldemort's
+champion wizard
+and madness
+awakens harry
+a killing
+earth middle
+community of
+incorporating objects
+chronicles novel
+into uncertainty
+and popular
+all wizards
+books four
+great recognition
+about dreams
+of study
+schoolwork umbridge's
+ginny when
+delving into
+a only
+mystery thriller
+handy his
+a reference
+school so
+and many
+notice signs
+on platform
+bros warner
+a muggles
+1997 the
+begins series
+their way
+especially targets
+a devour
+a device
+he though
+fellow with
+makes quickly
+voldemort year
+by sirius
+and rare
+harry's presumed
+which works
+on the
+a and
+and gained
+protect voldemort's
+disappeared voldemort
+invited to
+ensured has
+himself to
+and mythology
+at eaters
+muggle unpleasant
+black that
+adolescence his
+harry in
+four twenty
+as progressed
+friends harry's
+in order
+allied be
+and keys
+books potter
+here where
+of the
+book only
+hardworking witch
+during life
+ordinary the
+four hours
+activates the
+most of
+harry is
+brat draco
+about his
+life voldemort
+fourth friend
+harry's in
+half the
+marvolo riddle
+from him
+of reign
+accessible only
+palace theatre
+paranoia the
+an of
+by murder
+to wizards
+and protect
+inborn is
+behalf since
+continues with
+is past
+coming drama
+guided through
+happened harry
+about gleaning
+from his
+and lupin
+gold pure
+a team
+diary into
+were who
+teenagers young
+gruesome often
+500 million
+best the
+hogwarts other
+the wizard
+exists parallel
+books have
+are ostensibly
+that voldemort's
+central character
+by experienced
+along who
+he learns
+a highly
+and kingdom
+increasingly the
+in series
+from voldemort
+inadvertent saviour
+overcome to
+in wand
+also had
+any turns
+and history
+magical people
+near ron
+eighth the
+and petrified
+notice people
+harry series
+lord the
+overcome the
+out voldemort
+at this
+and witchcraft
+concern with
+associated often
+its release
+and durmstrang
+film part
+as of
+recent voldemort's
+school year
+out turns
+of whom
+harry ron
+an impostor
+by framed
+through world
+also his
+series with
+and races
+framed was
+shortly time
+means that
+also has
+and persistent
+greater the
+around parks
+theme throughout
+ginny's into
+called device
+snape the
+creatures magical
+& parks
+inside resides
+magical the
+arts professor
+a tournament
+and petrifies
+a young
+effects the
+dumbledore's forms
+speak the
+britain's increasingly
+an ron
+by people
+those who
+inadvertent its
+friends ron
+are invited
+include prejudice
+a ghoul
+as umbridge
+diggory the
+by the
+a in
+assisted in
+concerning memories
+and uncertainty
+series take
+child cursed
+drop hermione
+a collect
+devon london
+the wand
+alastor professor
+destroying the
+cedric diggory
+1990s british
+a is
+succeeds voldemort
+distance to
+been had
+a as
+fantasy land
+keeper one
+contains magical
+a mythic
+criticism including
+memories various
+a dangerous
+by published
+including remus
+harry survived
+harry learns
+locations various
+eleven roughly
+in year
+and students
+and witches
+studio tour
+states within
+of rival
+term that
+delving through
+cheerful highly
+body yearns
+not surrender
+quidditch team
+adapted into
+pet rat
+been has
+major other
+harry's second
+contact with
+so very
+2013 the
+and meanings
+cloak to
+adolescence of
+everyday of
+albeit world
+america in
+deathly hallows
+him poorly
+harry orphaned
+battle voldemort's
+pretends to
+and lord
+against compete
+cultural meanings
+franchise was
+in scabbers
+later turns
+digital platform
+ron with
+books selling
+end the
+marries potter
+harry voldemort
+has split
+black's dark
+follows harry
+ability of
+attacking begins
+self younger
+contain many
+feed on
+bestows that
+book lord
+magic wands
+battle the
+and rival
+and hardworking
+meets most
+and corruption
+ill with
+2016 among
+brown little
+a introduces
+and continue
+a painful
+minions voldemort's
+and scotland
+progressed series
+eventually is
+dark obsessed
+another as
+confining him
+of terror
+franchise potter
+commercial success
+and introduced
+boy english
+a play
+at danger
+secret study
+at point
+old year
+afterwards gravely
+and information
+and potter
+and success
+attempt to
+acts on
+ability magical
+adult wide
+j k
+as memories
+out to
+at several
+overthrow the
+hermione in
+from recognition
+for prepares
+diary tom
+her in
+and often
+and hermione
+cursed the
+final instalment
+bloomsbury publishers
+actions voldemort's
+hermione is
+dark wizard
+fantasy of
+despair which
+attempted subsequently
+have horcruxes
+invisible to
+magical other
+ensure their
+are written
+notebook old
+in set
+reveal that
+cedric escape
+and he
+introduced to
+central the
+by written
+attack to
+a fragmented
+since the
+harry's parents
+who wizard
+his of
+have potter
+despite harry
+during returns
+connected to
+friends they
+of which
+from learned
+a discovers
+published was
+lose sleep
+secret society
+effects of
+her parents'
+killing of
+one than
+book concludes
+for himself
+his on
+and magical
+friends learn
+aunt uncle
+have sold
+begins eventually
+the wizarding
+gold the
+explore the
+and separate
+control of
+hermione starts
+have voldemort
+hogwarts scotland
+army dumbledore's
+the win
+bent is
+surviving the
+refuse world
+mass murderer
+and ginny's
+draco's malfoy
+into seeing
+escape to
+and stress
+can find
+collection fragmented
+pictures which
+the was
+and various
+ordinary teenage
+later revealed
+hagrid who
+and objects
+become to
+creatures with
+is parseltongue
+scholastic success
+struggles with
+and annotations
+discovers harry
+harry wizard
+conjunction with
+at history
+but treated
+at the
+book own
+an event
+introduces the
+draco horcrux
+above the
+grossing highest
+the which
+slipped who
+return voldemort's
+the triwizard
+book every
+after the
+famous magic
+considered often
+harry prince
+soul the
+his undertakes
+new with
+burning desire
+develop to
+lord voldemort
+memory of
+gravely weakened
+before harry
+expelliarmus spell
+feelings towards
+major several
+races to
+dictatorial regime
+where world
+and his
+his lacking
+the together
+alumnus's an
+and hogwarts
+genres including
+and has
+harry takes
+a with
+the wizardry
+items that
+that the
+a wide
+students to
+of secrets
+has returned
+level of
+acclaim critical
+returns voldemort
+and secluded
+of other
+be one
+by professor
+main the
+harry struggles
+expelliarmus killing
+learning of
+eye mad
+be ron
+lonely pubs
+by tournament
+defence the
+protected relatively
+actions telepathically
+activities recent
+series' the
+country lonely
+and with
+is narnia
+tournament triwizard
+and phoenix
+third year
+hogwarts they
+revealed then
+fire of
+at kedavra
+hermione wipes
+for recruited
+describes the
+flying spells
+harry meets
+broomsticks flying
+basilisk which
+originally was
+plan to
+of prisoner
+and other
+necessary skills
+the total
+concerning harry
+magical of
+in who
+and children
+films off
+a studio
+has series
+home the
+seventeen to
+copies in
+fight to
+a regain
+main story
+of voldemort
+and london
+inspired is
+concerns harry's
+he motives
+the titular
+recurring theme
+franchises media
+characters other
+of spin
+twenty within
+puzzles the
+in sport
+eye moody
+disguise the
+and family
+face that
+the venerable
+the unexpected
+chronicles one
+off spin
+despite revealed
+arc concerns
+defensive the
+also and
+cloak invisibility
+published stone
+explores potter
+eight part
+house's quidditch
+from saviour
+and magic
+a living
+2016 july
+diary ginny
+last original
+old potions
+bring harry
+marks unravelled
+cup triwizard
+are whom
+and tortured
+development for
+his powers
+discredit eventually
+fifth the
+a contagious
+defeat voldemort's
+a weasley
+know that
+as its
+the with
+seven years
+critical popularity
+had worked
+memento of
+total value
+governing wizard
+arrival timely
+against dark
+giant rubeus
+characters main
+have kept
+tasks three
+development magical
+has which
+activities the
+soul voldemort's
+in killed
+consecutively set
+motives true
+begins voldemort
+blood prince
+in three
+hidden overlooked
+$25 billion
+attempts eaters
+hogwarts it
+attempted to
+languages three
+early life
+his with
+none teacher
+it the
+in returned
+mythic past
+seventy three
+and romance
+as safety
+everlasting life
+own safety
+discovers that
+major publishers
+higher the
+reaction to
+granger hermione
+out reaches
+full the
+best friends
+a creating
+he like
+discovers his
+book sixth
+loving member
+non of
+all weasley
+lessons with
+saves the
+in tasks
+flying of
+sorcerer's stone
+harry making
+must school
+literature the
+pensieve these
+his teach
+major two
+crush on
+aimed to
+snake the
+as well
+do hogwarts
+details learns
+powers their
+adventure horror
+book in
+death presumed
+that voldemort
+behalf dumbledore's
+encounters previous
+flying on
+of signs
+connected intimately
+novel original
+home of
+in surrey
+rowling updates
+chronicle novels
+death of
+is revealed
+mostly set
+book is
+ahead in
+himself is
+barty named
+premiered rowling
+children has
+means non
+all have
+descended from
+him the
+opens stone
+followed magic
+battle including
+early years
+castles invisible
+death on
+age from
+but safe
+and schoolwork
+best selling
+into translated
+ron towards
+above well
+death eaters
+out turning
+by weakened
+gradually through
+and insight
+new the
+compete with
+the throughout
+abilities are
+into soul
+the tournament
+ancient streets
+harry suggestion
+contest where
+amusement parks
+2009 in
+for searching
+although magic
+high inquisitor
+albus dumbledore
+four last
+cornerstones of
+a become
+a earth
+according references
+a mudbloods
+member of
+locations one
+a book
+hallows the
+quirinus quirrell
+opened that
+2013 may
+and commercial
+completed his
+academy wizarding
+completed has
+as that
+disturbing receives
+he that
+2012 a
+a voldemort
+dark magic
+against struggle
+on stone
+in participant
+as they
+after brother
+during harry's
+knowledge that
+describing wizards
+dark increasingly
+hagrid's with
+as he
+impostor one
+detailed in
+also book
+himself preparing
+modern of
+knowledge the
+allow to
+in others
+a states
+include series
+is unravelled
+first wave
+ginny ron
+appears that
+50 year
+to ways
+battle final
+and recommendations
+hermione when
+hidden streets
+only world
+boy who
+a be
+begins harry
+collectively known
+film series
+reference term
+about dumbledore's
+recommendations signed
+language parseltongue
+26 on
+also destroying
+recently themed
+had he
+books in
+are frequently
+as such
+defensive measures
+book the
+for the
+ginny with
+books is
+book there
+and good
+contact eye
+his witnessed
+as some
+of release
+adventure thriller
+here is
+lives teenagers'
+turns who
+events in
+become the
+he himself
+devour to
+in written
+dumbledore reappearance
+each participating
+belongings her
+arts teacher
+age the
+press scholastic
+magical non
+dumbledore's past
+becomes it
+executed generally
+educates that
+an potter
+as records
+august of
+a by
+at year
+castles secluded
+after learning
+older ron's
+a about
+a granger
+memories the
+allowing harry
+each other
+her through
+curse rebounding
+collection of
+the united
+attractive cho
+feature not
+begins ginny
+jk rowling
+and are
+from one
+he quickly
+event significant
+characters in
+acts ginny
+him to
+birthday eleventh
+of test
+in premiering
+explores numerous
+release the
+measures which
+hogwarts into
+recent sinister
+ordinary world
+a new
+modern young
+eventually harry
+potions spells
+adolescence he
+culprit who
+parentage the
+as countries
+return the
+because of
+a time
+sirius tortured
+experienced frequently
+major themes
+original seven
+eleven million
+friends of
+is who
+highest the
+seeing sirius
+fraud harry
+friends investigate
+gilderoy teacher
+describing harry's
+by his
+gradually revealed
+happy large
+memories of

@@ -37,10 +37,9 @@ bool contains(std::vector<int> &vec, int target)
     return false;
 }
 
-std::vector<int> BA(std::mt19937 &mt, int N, int m)
+std::vector<int> BA(std::mt19937 &mt, int N, int N0, int m)
 {
     // Initialize a graph
-    int N0 = 5;
     std::vector<int> links = generate_complete_graph(N0);
 
     // For N-N0 steps, add a node with m links
@@ -95,8 +94,9 @@ int main(int argc, char *argv[])
     std::mt19937 mt(seed);
 
     int N = 1e6;
+    int N0 = 5;
     int m = 3; // 新規参入するノードのリンク数
-    std::vector<int> links = BA(mt, N, m);
+    std::vector<int> links = BA(mt, N, N0, m);
 
     output_links(links, out_file);
 
