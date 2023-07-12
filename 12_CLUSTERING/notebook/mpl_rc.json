@@ -1,0 +1,31 @@
+{
+	"font": {
+		"size": 14
+	},
+	"figure": {
+		"figsize": [6,4],
+		"dpi": 120
+	},
+	"axes": {
+		"grid": true,
+		"labelsize": 18 
+	},
+	"grid": {
+		"linestyle": ":",
+		"linewidth": 0.5,
+		"alpha": 0.5
+	},
+	"xtick": {
+		"direction": "in",
+		"major.pad": 6,
+		"top": true
+	}, 
+	"ytick": {
+		"direction": "in",
+		"major.pad": 6,
+		"right": true
+    },
+    "legend": {
+        "handletextpad": 0.5
+    }
+}
