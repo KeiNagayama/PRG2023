@@ -13,6 +13,7 @@
 - [08: POW](/08_POW)
 - [09: AR](/09_AR)
 - [11: NETWORK](/11_NETWORK)
+- [12: CLUSTERING](/12_CLUSTERING/)
 
 
 ## Appendix
