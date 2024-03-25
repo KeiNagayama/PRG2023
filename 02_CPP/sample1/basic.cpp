@@ -37,7 +37,18 @@ void print_partition(int length = 30)
     std::cout << std::endl;
 }
 
+void update(int a, int &b)
+{
+    ++a;
+    ++b;
+}
+
 int main()
 {
+    int a = 0;
+    int b = 0;
+    update(a, b);
+    std::cout << a << std::endl; // 0
+    std::cout << b << std::endl; // 1
     return 0;
 }

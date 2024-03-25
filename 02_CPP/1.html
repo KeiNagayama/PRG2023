@@ -1,0 +1,327 @@
+<!DOCTYPE html><html><head>
+      <title>1</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="file:////Users/naga/.vscode/extensions/shd101wyy.markdown-preview-enhanced-0.8.13/crossnote/dependencies/katex/katex.min.css">
+      
+      
+      
+      
+      
+      <style>
+      code[class*=language-],pre[class*=language-]{color:#333;background:0 0;font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.4;-moz-tab-size:8;-o-tab-size:8;tab-size:8;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:.8em;overflow:auto;border-radius:3px;background:#f5f5f5}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal;background:#f5f5f5}.token.blockquote,.token.comment{color:#969896}.token.cdata{color:#183691}.token.doctype,.token.macro.property,.token.punctuation,.token.variable{color:#333}.token.builtin,.token.important,.token.keyword,.token.operator,.token.rule{color:#a71d5d}.token.attr-value,.token.regex,.token.string,.token.url{color:#183691}.token.atrule,.token.boolean,.token.code,.token.command,.token.constant,.token.entity,.token.number,.token.property,.token.symbol{color:#0086b3}.token.prolog,.token.selector,.token.tag{color:#63a35c}.token.attr-name,.token.class,.token.class-name,.token.function,.token.id,.token.namespace,.token.pseudo-class,.token.pseudo-element,.token.url-reference .token.variable{color:#795da3}.token.entity{cursor:help}.token.title,.token.title .token.punctuation{font-weight:700;color:#1d3e81}.token.list{color:#ed6a43}.token.inserted{background-color:#eaffea;color:#55a532}.token.deleted{background-color:#ffecec;color:#bd2c00}.token.bold{font-weight:700}.token.italic{font-style:italic}.language-json .token.property{color:#183691}.language-markup .token.tag .token.punctuation{color:#333}.language-css .token.function,code.language-css{color:#0086b3}.language-yaml .token.atrule{color:#63a35c}code.language-yaml{color:#183691}.language-ruby .token.function{color:#333}.language-markdown .token.url{color:#795da3}.language-makefile .token.symbol{color:#795da3}.language-makefile .token.variable{color:#183691}.language-makefile .token.builtin{color:#0086b3}.language-bash .token.keyword{color:#0086b3}pre[data-line]{position:relative;padding:1em 0 1em 3em}pre[data-line] .line-highlight-wrapper{position:absolute;top:0;left:0;background-color:transparent;display:block;width:100%}pre[data-line] .line-highlight{position:absolute;left:0;right:0;padding:inherit 0;margin-top:1em;background:hsla(24,20%,50%,.08);background:linear-gradient(to right,hsla(24,20%,50%,.1) 70%,hsla(24,20%,50%,0));pointer-events:none;line-height:inherit;white-space:pre}pre[data-line] .line-highlight:before,pre[data-line] .line-highlight[data-end]:after{content:attr(data-start);position:absolute;top:.4em;left:.6em;min-width:1em;padding:0 .5em;background-color:hsla(24,20%,50%,.4);color:#f4f1ef;font:bold 65%/1.5 sans-serif;text-align:center;vertical-align:.3em;border-radius:999px;text-shadow:none;box-shadow:0 1px #fff}pre[data-line] .line-highlight[data-end]:after{content:attr(data-end);top:auto;bottom:.4em}html body{font-family:'Helvetica Neue',Helvetica,'Segoe UI',Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ol,html body>ul{margin-bottom:16px}html body ol,html body ul{padding-left:2em}html body ol.no-list,html body ul.no-list{padding:0;list-style-type:none}html body ol ol,html body ol ul,html body ul ol,html body ul ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;background-color:#f0f0f0;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:700;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:700}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::after,html body code::before{letter-spacing:-.2em;content:'\00a0'}html body pre>code{padding:0;margin:0;word-break:normal;white-space:pre;background:0 0;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:after,html body pre code:before,html body pre tt:after,html body pre tt:before{content:normal}html body blockquote,html body dl,html body ol,html body p,html body pre,html body ul{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body code,html body pre{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview ul{list-style:disc}.markdown-preview ul ul{list-style:circle}.markdown-preview ul ul ul{list-style:square}.markdown-preview ol{list-style:decimal}.markdown-preview ol ol,.markdown-preview ul ol{list-style-type:lower-roman}.markdown-preview ol ol ol,.markdown-preview ol ul ol,.markdown-preview ul ol ol,.markdown-preview ul ul ol{list-style-type:lower-alpha}.markdown-preview .newpage,.markdown-preview .pagebreak{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center!important}.markdown-preview:not([data-for=preview]) .code-chunk .code-chunk-btn-group{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .status{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .output-div{margin-bottom:16px}.markdown-preview .md-toc{padding:0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link div,.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}.markdown-preview .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0;min-height:100vh}@media screen and (min-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{font-size:14px!important;padding:1em}}@media print{html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc{padding:0 16px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link div,html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% - 300px);padding:2em calc(50% - 457px - 300px / 2);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+
+      </style>
+      <!-- The content below will be included at the end of the <head> element. --><script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function () {
+    // your code here
+  });
+</script></head><body for="html-export">
+    
+    
+      <div class="crossnote markdown-preview  ">
+      
+<h1 id="part1-基本">Part1: 基本 </h1>
+<p>Visual Studio Code をお使いなら，拡張機能 <a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools">C/C++</a> を入れておくと良いでしょう．IntelliSense という入力支援機能が入っており，プログラミングが楽になります．</p>
+<p>エディタの自動整形機能も利用しましょう．Visual Studio Code では，保存時に自動整形する機能である <code>Format on Save</code> が標準搭載されています．設定から有効にしてください．</p>
+<h2 id="hello-world">Hello world </h2>
+<p>プログラミング言語入門の慣例にならって，まずは Hello world! を出力してみましょう．</p>
+<p>C++ファイルの拡張子には <code>cpp</code> を使います．Visual Studio Code などの適当なエディタ上で <code>hello.cpp</code> というファイルを作成し，下記のようなソースコードを作ります．</p>
+<pre data-role="codeBlock" data-info="c++" class="language-cpp c++"><code><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;iostream&gt;</span></span>
+
+<span class="token keyword keyword-int">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token comment">// プログラムを実行すると最初に呼び出される</span>
+<span class="token punctuation">{</span>
+    std<span class="token double-colon punctuation">::</span>cout <span class="token operator">&lt;&lt;</span> <span class="token string">"Hello world!"</span> <span class="token operator">&lt;&lt;</span> std<span class="token double-colon punctuation">::</span>endl<span class="token punctuation">;</span> <span class="token comment">// ターミナルに Hello world! と出力</span>
+    <span class="token keyword keyword-return">return</span> <span class="token number">0</span><span class="token punctuation">;</span> <span class="token comment">// プログラムが正常に終了したことを表す</span>
+<span class="token punctuation">}</span>
+</code></pre><ul>
+<li><code>#include &lt;iostream&gt;</code>, <code>std::cout</code>, <code>std::endl</code> はおまじないだと思って流してください．STLの標準入出力の節で解説します．</li>
+<li><code>main()</code> はプログラムの実行開始点で，プログラムが実行されると最初に呼び出されます．</li>
+<li><code>{}</code>で囲まれた部分が一つのブロックです．Pythonではインデントが一つのブロックになっています．</li>
+<li><strong>文字列はダブルクオーテーション <code>"</code> で囲みます．</strong></li>
+<li><strong>文の終わりにはセミコロン<code>;</code>を付けます．</strong> 文(statement)とは，プログラムの概念です．<a href="https://w.wiki/9Yee">こちら (wikipedia)</a> をご参照ください．</li>
+<li><code>return 0</code> は，<code>main</code> 関数の最後に記述することで，プログラムが正常に終了したことをオペレーティングシステムに伝える役割があります．途中でエラーが発生した場合には 0 以外の数値が返されます．最初のうちはこの意味に深くこだわらなくても大丈夫で，<code>main</code> 関数の最後に記述するということだけ覚えておけば十分です．</li>
+<li>コメントアウトするには <code>//</code> を前に付けるか，<code>/* */</code> で囲います．</li>
+</ul>
+<p>続いて，<code>hello.cpp</code> を<strong>コンパイル</strong>します．コンパイルとは，人間が書いたプログラムをコンピュータが理解できる機械語（バイナリコード）に変換することです．この変換を行なうプログラムをコンパイラと言います．</p>
+<pre data-role="codeBlock" data-info="sh" class="language-bash sh"><code>$ g++ <span class="token parameter variable">-std</span><span class="token operator">=</span>c++17 hello.cpp
+</code></pre><ul>
+<li><code>g++</code> はC++のコンパイラの一つで，LinuxやUNIX系のシステムで広く使われています．</li>
+<li><code>-std=c++17</code> ではC++のバージョンを指定しています．17は2017年に対応していて，他に <code>c++11,c++14,c++20</code> などがあります．2011年以降は3年ごとに更新され，その度に便利な機能が追加されています．</li>
+<li>最新の<code>c++23</code>ではかなり現代化 (Python化) が進んでいます (<a href="https://w.wiki/9Dj9">https://w.wiki/9Dj9</a>)．まだすべての機能が各種コンパイラに搭載されておらず (<a href="https://en.cppreference.com/w/cpp/compiler_support/23">https://en.cppreference.com/w/cpp/compiler_support/23</a>)，ドキュメントも少ない状態ですが，いずれこれがスタンダードになっていくでしょう．</li>
+<li>本稿では <code>c++17</code> を使っていきます．</li>
+</ul>
+<p>コンパイルすると，コンパイラによって <code>a.out</code> というファイルが作られます．これは<strong>実行ファイル</strong>と呼ばれ，ターミナル上で下記のようにファイル名を入力すると，プログラムが実行されます．</p>
+<pre data-role="codeBlock" data-info="sh" class="language-bash sh"><code>$ ./a.out
+Hello world<span class="token operator">!</span>
+</code></pre><ul>
+<li><code>./</code> は現在のディレクトリを指します．</li>
+<li><code>g++</code> に <code>-o name</code> のオプションをつけることで，実行ファイルに名前をつけることができます．この際，実行ファイルには拡張子を付けないことが多いです．</li>
+</ul>
+<pre data-role="codeBlock" data-info="sh" class="language-bash sh"><code>$ g++ <span class="token parameter variable">-std</span><span class="token operator">=</span>c++17 hello.cpp <span class="token parameter variable">-o</span> hello 
+$ ./hello
+Hello world<span class="token operator">!</span>
+</code></pre><p><code>g++</code> に渡すオプションやファイル名の順番は，一部のケースを除いて通常は関係ありません．例えば，以下の2つのコマンドは同じ結果をもたらします．</p>
+<pre data-role="codeBlock" data-info="sh" class="language-bash sh"><code>$ g++ <span class="token parameter variable">-std</span><span class="token operator">=</span>c++17 hello.cpp <span class="token parameter variable">-o</span> hello
+$ g++ hello.cpp <span class="token parameter variable">-o</span> hello <span class="token parameter variable">-std</span><span class="token operator">=</span>c++17
+</code></pre><p><code>g++</code> には他にもいくつかオプションがあります．代表的なものには以下の2つがあります．</p>
+<ul>
+<li><code>-Wall</code> : 通常よりも多くの警告メッセージを出す．</li>
+<li><code>-O1, -O2, -O3</code> : 最適化オプション．数字が大きいほど最適化レベルが高い．</li>
+</ul>
+<hr>
+<p>以下は実行ファイルの中身が気になる人に向けた補足（蛇足）です．読み飛ばして構いません．</p>
+<p><code>hexdump</code> コマンドを使うと実行ファイルの中身を読むことができます．試しに実行ファイル <code>hello</code> のうち，<code>Hello world!</code> に対応する部分の周辺を見てみたのが以下です．</p>
+<pre data-role="codeBlock" data-info="sh" class="language-bash sh"><code>$ hexdump <span class="token parameter variable">-C</span> hello <span class="token operator">|</span> <span class="token function">grep</span> <span class="token parameter variable">-B3</span> <span class="token parameter variable">-A3</span> Hello
+00003f10  c0 03 5f d6 <span class="token number">10</span> 00 00 b0  <span class="token number">10</span> 02 <span class="token number">40</span> f9 00 02 1f d6  <span class="token operator">|</span><span class="token punctuation">..</span>_<span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span>.@<span class="token punctuation">..</span><span class="token punctuation">..</span>.<span class="token operator">|</span>
+00003f20  <span class="token number">10</span> 00 00 b0 <span class="token number">10</span> 06 <span class="token number">40</span> f9  00 02 1f d6 <span class="token number">10</span> 00 00 b0  <span class="token operator">|</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span>@<span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span>.<span class="token operator">|</span>
+00003f30  <span class="token number">10</span> <span class="token number">16</span> <span class="token number">40</span> f9 00 02 1f d6  <span class="token number">10</span> 00 00 b0 <span class="token number">10</span> 1a <span class="token number">40</span> f9  <span class="token operator">|</span><span class="token punctuation">..</span>@<span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span>.@.<span class="token operator">|</span>
+00003f40  00 02 1f d6 00 3f 00 00  <span class="token number">48</span> <span class="token number">65</span> 6c 6c 6f <span class="token number">20</span> <span class="token number">77</span> 6f  <span class="token operator">|</span><span class="token punctuation">..</span><span class="token punctuation">..</span>.?<span class="token punctuation">..</span>Hello wo<span class="token operator">|</span>
+00003f50  <span class="token number">72</span> 6c <span class="token number">64</span> <span class="token number">21</span> 00 01 01 01  <span class="token number">14</span> 00 00 00 00 00 00 00  <span class="token operator">|</span>rld<span class="token operator">!</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token operator">|</span>
+00003f60  01 7a <span class="token number">52</span> 00 01 <span class="token number">78</span> 1e 01  <span class="token number">10</span> 0c 1f 00 00 00 00 00  <span class="token operator">|</span>.zR<span class="token punctuation">..</span>x<span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token operator">|</span>
+00003f70  2c 00 00 00 1c 00 00 00  <span class="token number">18</span> ff ff ff ff ff ff ff  <span class="token operator">|</span>,<span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span><span class="token punctuation">..</span>.<span class="token operator">|</span>
+</code></pre><ul>
+<li>左の列はメモリのアドレス（データが格納されている場所を指す一意の番号）</li>
+<li>中央の1バイト区切りの数字の羅列は指定されたアドレスに記述された命令</li>
+<li>右の列は命令をASCII文字に無理やり変換したもの</li>
+</ul>
+<p>もし機械語に興味が出てきたら wikipedia (<a href="https://w.wiki/9XL7">https://w.wiki/9XL7</a>) 等を参照ください．</p>
+<hr>
+<p>C++でもC言語の <code>printf</code> 関数を使うことができます．</p>
+<pre data-role="codeBlock" data-info="c++" class="language-cpp c++"><code><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;stdio.h&gt;</span></span>
+<span class="token keyword keyword-int">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token comment">// プログラムを実行すると最初に呼び出される</span>
+<span class="token punctuation">{</span>
+    <span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Hello world!\n"</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// ターミナルに Hello world! と出力</span>
+    <span class="token keyword keyword-return">return</span> <span class="token number">0</span><span class="token punctuation">;</span> <span class="token comment">// プログラムが正常に終了したことを表す</span>
+<span class="token punctuation">}</span>
+</code></pre><p><a href="https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#slio3-prefer-iostreams-for-io">https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#slio3-prefer-iostreams-for-io</a></p>
+<h2 id="基本型">基本型 </h2>
+<h3 id="数値型-int-double">数値型 <code>int</code>, <code>double</code> </h3>
+<ul>
+<li><code>int</code>: 整数を表す．4バイト．取りうる値の範囲は -2,147,483,648 ~ 2,147,483,647</li>
+<li><code>double</code>: 倍精度浮動小数点．8バイト．</li>
+</ul>
+<p>オーダー <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>1</mn><msup><mn>0</mn><mn>6</mn></msup></mrow><annotation encoding="application/x-tex">10^6</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">6</span></span></span></span></span></span></span></span></span></span></span> を超える整数を扱いたい場合は，8バイトの整数型である <code>long</code> を使います．浮動小数型には <code>float</code> 型（4バイト）もあります．計算精度が落ちますので，<strong>C++ で数値計算を行なう場合には <code>float</code> 型は絶対に使わないでください．</strong><br>
+特に，Pythonに慣れている人は要注意です．Pythonの <code>float</code> 型は8バイトの浮動小数点で，C++や他の言語の <code>double</code> 型に該当します．</p>
+<p>他の言語と同様に，加減乗除・剰余演算が定義されています．除算と剰余には注意点があります．</p>
+<ul>
+<li>除算：<code>int</code> 型同士の割り算では端数が切り捨てられ，<code>int</code> 型になります．マイナスの数は0に近づくように丸められます．</li>
+<li>剰余：マイナスの数を含む剰余の符号は割られる数の符号と一致するように定義されています．</li>
+</ul>
+<pre data-role="codeBlock" data-info="c++" class="language-cpp c++"><code><span class="token comment">// 変数の宣言（型宣言が必要）</span>
+<span class="token keyword keyword-int">int</span> year <span class="token operator">=</span> <span class="token number">2024</span><span class="token punctuation">;</span>
+<span class="token keyword keyword-double">double</span> USD_TO_JPY <span class="token operator">=</span> <span class="token number">151.42</span><span class="token punctuation">;</span> <span class="token comment">// at 2024.03.23</span>
+
+<span class="token comment">// 除算（整数は切り捨て）</span>
+std<span class="token double-colon punctuation">::</span>cout <span class="token operator">&lt;&lt;</span> <span class="token number">2</span> <span class="token operator">/</span> <span class="token number">3</span> <span class="token operator">&lt;&lt;</span> std<span class="token double-colon punctuation">::</span>endl<span class="token punctuation">;</span>    <span class="token comment">// 0</span>
+std<span class="token double-colon punctuation">::</span>cout <span class="token operator">&lt;&lt;</span> <span class="token operator">-</span><span class="token number">2</span> <span class="token operator">/</span> <span class="token number">3</span> <span class="token operator">&lt;&lt;</span> std<span class="token double-colon punctuation">::</span>endl<span class="token punctuation">;</span>   <span class="token comment">// 0</span>
+std<span class="token double-colon punctuation">::</span>cout <span class="token operator">&lt;&lt;</span> <span class="token number">2.0</span> <span class="token operator">/</span> <span class="token number">3</span> <span class="token operator">&lt;&lt;</span> std<span class="token double-colon punctuation">::</span>endl<span class="token punctuation">;</span>  <span class="token comment">// 0.666667</span>
+std<span class="token double-colon punctuation">::</span>cout <span class="token operator">&lt;&lt;</span> <span class="token operator">-</span><span class="token number">2</span> <span class="token operator">/</span> <span class="token number">3.0</span> <span class="token operator">&lt;&lt;</span> std<span class="token double-colon punctuation">::</span>endl<span class="token punctuation">;</span> <span class="token comment">// -0.666667</span>
+
+<span class="token comment">// 剰余（符号は割られる数の符号と一致）</span>
+std<span class="token double-colon punctuation">::</span>cout <span class="token operator">&lt;&lt;</span> <span class="token number">2</span> <span class="token operator">%</span> <span class="token number">3</span> <span class="token operator">&lt;&lt;</span> std<span class="token double-colon punctuation">::</span>endl<span class="token punctuation">;</span>   <span class="token comment">//  2</span>
+std<span class="token double-colon punctuation">::</span>cout <span class="token operator">&lt;&lt;</span> <span class="token number">2</span> <span class="token operator">%</span> <span class="token operator">-</span><span class="token number">3</span> <span class="token operator">&lt;&lt;</span> std<span class="token double-colon punctuation">::</span>endl<span class="token punctuation">;</span>  <span class="token comment">//  2</span>
+std<span class="token double-colon punctuation">::</span>cout <span class="token operator">&lt;&lt;</span> <span class="token operator">-</span><span class="token number">2</span> <span class="token operator">%</span> <span class="token number">3</span> <span class="token operator">&lt;&lt;</span> std<span class="token double-colon punctuation">::</span>endl<span class="token punctuation">;</span>  <span class="token comment">// -2</span>
+std<span class="token double-colon punctuation">::</span>cout <span class="token operator">&lt;&lt;</span> <span class="token operator">-</span><span class="token number">2</span> <span class="token operator">%</span> <span class="token operator">-</span><span class="token number">3</span> <span class="token operator">&lt;&lt;</span> std<span class="token double-colon punctuation">::</span>endl<span class="token punctuation">;</span> <span class="token comment">// -2</span>
+</code></pre><p>また，整数型 <code>int</code> にはインクリメント <code>++</code>，デクリメント <code>--</code> が定義されています．</p>
+<ul>
+<li><code>++i</code> のように変数の前に付けると，インクリメントしてから，その値が使われます．</li>
+<li><code>i++</code> のように変数の後に付けると，値を使ってから，インクリメントされます．</li>
+</ul>
+<p>下記のように，単体で使う分には同じ結果になります．</p>
+<pre data-role="codeBlock" data-info="c++" class="language-cpp c++"><code><span class="token operator">++</span>i<span class="token punctuation">;</span>
+i<span class="token operator">++</span><span class="token punctuation">;</span>
+</code></pre><p>本稿では <code>++i</code> をメインに使っていきます．これは，頻繁に利用する下記のようなドキュメントの流儀に合わせ，書き写した場合にも一貫性が保たれるようにするためです．</p>
+<ul>
+<li><a href="https://cpprefjp.github.io">C++ 日本語リファレンス</a></li>
+<li><a href="http://vivi.dyndns.org/tech/cpp/cpp.html">手を動かしてさくさく理解する C言語/C++ プログラミング入門</a></li>
+</ul>
+<blockquote>
+<p><code>++i</code> と <code>i++</code> のどちらが速いか等の記事が散見されますが，もし速度に差があったとしても，そこに拘った時間以上に時間が生み出されることはありません．研究成果に繋がらないことに時間を割くことは慎まれるように．もちろん，趣味の時間をお使いになる分には一向に構いません．</p>
+</blockquote>
+<p>インクリメントした値を使う場合には結果が変わります．</p>
+<pre data-role="codeBlock" data-info="c++" class="language-cpp c++"><code><span class="token keyword keyword-int">int</span> a <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token keyword keyword-int">int</span> b<span class="token punctuation">;</span> <span class="token comment">// 宣言だけして初期化しない</span>
+
+b <span class="token operator">=</span> <span class="token operator">++</span>a<span class="token punctuation">;</span> <span class="token comment">// aをインクリメントしてからbに代入</span>
+<span class="token comment">// a = 1, b = 1</span>
+
+b <span class="token operator">=</span> a<span class="token operator">++</span><span class="token punctuation">;</span> <span class="token comment">// aをbに代入してからaをインクリメント</span>
+<span class="token comment">// a = 2, b = 1</span>
+</code></pre><p>ただし，このようなインクリメントの使い方は紛らわしく，バグの温床になります．<strong>研究でのプログラミングで最も重要なことは「正確さ」です．正確に書くために，次点として「理解しやすさ」が重要になります．</strong> 上の処理は，次のように書くと手順がはっきりして理解しやすくなります．また，<code>++a</code> と <code>a++</code> のどちらを使っても結果が変わらないので，バグの心配もいりません．</p>
+<pre data-role="codeBlock" data-info="c++" class="language-cpp c++"><code><span class="token keyword keyword-int">int</span> a <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token keyword keyword-int">int</span> b<span class="token punctuation">;</span> <span class="token comment">// 宣言だけして初期化しない</span>
+
+<span class="token operator">++</span>a<span class="token punctuation">;</span>   <span class="token comment">// aをインクリメント (a++でも結果は同じ)</span>
+b <span class="token operator">=</span> a<span class="token punctuation">;</span> <span class="token comment">// bに代入</span>
+<span class="token comment">// a = 1, b = 1</span>
+
+b <span class="token operator">=</span> a<span class="token punctuation">;</span> <span class="token comment">// bに代入</span>
+<span class="token operator">++</span>a<span class="token punctuation">;</span>   <span class="token comment">// aをインクリメント (a++でも結果は同じ)</span>
+<span class="token comment">// a = 2, b = 1</span>
+</code></pre><h3 id="真偽値型-bool">真偽値型 <code>bool</code> </h3>
+<ul>
+<li><code>true</code>, <code>false</code>の2値を取る</li>
+<li>否定・AND・OR演算が定義されている</li>
+</ul>
+<pre data-role="codeBlock" data-info="c++" class="language-cpp c++"><code><span class="token keyword keyword-bool">bool</span> A <span class="token operator">=</span> <span class="token boolean">true</span><span class="token punctuation">;</span>
+<span class="token keyword keyword-bool">bool</span> B <span class="token operator">=</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
+<span class="token keyword keyword-bool">bool</span> not_A <span class="token operator">=</span> <span class="token operator">!</span>A<span class="token punctuation">;</span>       <span class="token comment">// false</span>
+<span class="token keyword keyword-bool">bool</span> A_and_B <span class="token operator">=</span> A <span class="token operator">&amp;&amp;</span> B<span class="token punctuation">;</span> <span class="token comment">// false</span>
+<span class="token keyword keyword-bool">bool</span> A_or_B <span class="token operator">=</span> A <span class="token operator">||</span> B<span class="token punctuation">;</span>  <span class="token comment">// true</span>
+
+<span class="token comment">// 出力時は true→1, false→0 と置き換えられる</span>
+std<span class="token double-colon punctuation">::</span>cout <span class="token operator">&lt;&lt;</span> not_A <span class="token operator">&lt;&lt;</span> std<span class="token double-colon punctuation">::</span>endl<span class="token punctuation">;</span>   <span class="token comment">// 0</span>
+std<span class="token double-colon punctuation">::</span>cout <span class="token operator">&lt;&lt;</span> A_and_B <span class="token operator">&lt;&lt;</span> std<span class="token double-colon punctuation">::</span>endl<span class="token punctuation">;</span> <span class="token comment">// 0</span>
+std<span class="token double-colon punctuation">::</span>cout <span class="token operator">&lt;&lt;</span> A_or_B <span class="token operator">&lt;&lt;</span> std<span class="token double-colon punctuation">::</span>endl<span class="token punctuation">;</span>  <span class="token comment">// 1</span>
+</code></pre><h3 id="文字列-char">文字列 <code>char</code> </h3>
+<ul>
+<li>1バイトのASCII文字を表す</li>
+<li><strong>シングルクオーテーション</strong>で囲む</li>
+<li>区切り文字 (delimiter) の指定などに使う</li>
+</ul>
+<pre data-role="codeBlock" data-info="c++" class="language-cpp c++"><code><span class="token keyword keyword-char">char</span> delim <span class="token operator">=</span> <span class="token char">','</span><span class="token punctuation">;</span> <span class="token comment">// カンマ区切り</span>
+delim <span class="token operator">=</span> <span class="token char">' '</span><span class="token punctuation">;</span>      <span class="token comment">// スペース区切り</span>
+delim <span class="token operator">=</span> <span class="token char">'\n'</span><span class="token punctuation">;</span>     <span class="token comment">// 行単位で区切る</span>
+</code></pre><p>文字列型 <code>string</code> は基本型には含まれていません．C言語ではchar配列として文字列を定義していましたが，C++ではSTLに <code>string</code> が追加されました．<code>string</code> の使い方は STLの章で説明します．</p>
+<h2 id="制御文">制御文 </h2>
+<ul>
+<li>条件分岐：<code>if</code>, <code>switch</code></li>
+<li>ループ：<code>for</code>, <code>while</code></li>
+<li>ループの中断：<code>continue</code>, <code>break</code></li>
+</ul>
+<p>使用例を示します．<code>switch</code>と<code>while</code>の使い方は必要になったら調べてください．</p>
+<pre data-role="codeBlock" data-info="c++" class="language-cpp c++"><code><span class="token keyword keyword-for">for</span> <span class="token punctuation">(</span><span class="token keyword keyword-int">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> <span class="token number">4</span><span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span>i <span class="token operator">%</span> <span class="token number">2</span> <span class="token operator">==</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token keyword keyword-continue">continue</span><span class="token punctuation">;</span> <span class="token comment">// 奇数をスキップ</span>
+    std<span class="token double-colon punctuation">::</span>cout <span class="token operator">&lt;&lt;</span> i <span class="token operator">&lt;&lt;</span> std<span class="token double-colon punctuation">::</span>endl<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token comment">// 出力：0と2</span>
+
+<span class="token keyword keyword-for">for</span> <span class="token punctuation">(</span><span class="token keyword keyword-int">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> <span class="token number">4</span><span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span>i <span class="token operator">%</span> <span class="token number">2</span> <span class="token operator">==</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token keyword keyword-break">break</span><span class="token punctuation">;</span> <span class="token comment">// 奇数が出てきたらループを終了</span>
+    std<span class="token double-colon punctuation">::</span>cout <span class="token operator">&lt;&lt;</span> i <span class="token operator">&lt;&lt;</span> std<span class="token double-colon punctuation">::</span>endl<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token comment">// 出力：0のみ</span>
+</code></pre><p><code>{}</code> の中の文が一つの場合は，<code>{}</code>を省略できます．また，C++はセミコロン <code>;</code> の有無で文の終わりを判別するため，改行の有無で処理は変わりません．つまり，次の4つの <code>if</code> 文はまったく同じ処理になります．</p>
+<pre data-role="codeBlock" data-info="c++" class="language-cpp c++"><code><span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span><span class="token boolean">true</span><span class="token punctuation">)</span> <span class="token comment">/* do something */</span>
+
+<span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span><span class="token boolean">true</span><span class="token punctuation">)</span> 
+    <span class="token comment">/* do something */</span>
+
+<span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span><span class="token boolean">true</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token comment">/* do something */</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span><span class="token boolean">true</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token comment">/* do something */</span>
+<span class="token punctuation">}</span>
+</code></pre><h2 id="関数">関数 </h2>
+<ul>
+<li>宣言：<code>戻り値型 関数名(型 引数名){ 処理; }</code></li>
+<li>引数にはデフォルト値を指定できる <code>戻り値型 関数名(型 引数名=デフォルト値)</code></li>
+<li>ただし，デフォルト値のある引数はデフォルト値のない引数よりも後に指定する</li>
+</ul>
+<pre data-role="codeBlock" data-info="c++" class="language-cpp c++"><code><span class="token comment">// べき乗を計算（ただし，底は非負整数，指数は整数）</span>
+<span class="token keyword keyword-int">int</span> <span class="token function">power</span><span class="token punctuation">(</span><span class="token keyword keyword-int">int</span> base<span class="token punctuation">,</span> <span class="token keyword keyword-int">int</span> exponent <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token keyword keyword-if">if</span> <span class="token punctuation">(</span>exponent <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token keyword keyword-return">return</span> <span class="token number">1</span><span class="token punctuation">;</span>
+    <span class="token keyword keyword-return">return</span> base <span class="token operator">*</span> <span class="token function">power</span><span class="token punctuation">(</span>base<span class="token punctuation">,</span> exponent <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword keyword-void">void</span> <span class="token function">print_power</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    std<span class="token double-colon punctuation">::</span>cout <span class="token operator">&lt;&lt;</span> <span class="token function">power</span><span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">,</span> <span class="token number">9</span><span class="token punctuation">)</span> <span class="token operator">&lt;&lt;</span> std<span class="token double-colon punctuation">::</span>endl<span class="token punctuation">;</span>  <span class="token comment">// 1000000000</span>
+    std<span class="token double-colon punctuation">::</span>cout <span class="token operator">&lt;&lt;</span> <span class="token function">power</span><span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">,</span> <span class="token number">10</span><span class="token punctuation">)</span> <span class="token operator">&lt;&lt;</span> std<span class="token double-colon punctuation">::</span>endl<span class="token punctuation">;</span> <span class="token comment">// 1410065408</span>
+<span class="token punctuation">}</span>
+<span class="token comment">// int型で10^10を計算するとオーバーフロー（桁あふれ）が発生</span>
+</code></pre><h2 id="値渡しと参照渡し">値渡しと参照渡し </h2>
+<p>関数に値を渡す方法には，値渡しと参照渡しの2つがあります．</p>
+<p>値渡しでは，関数に引数を渡す際にその値のコピーが作成されます．関数内で引数の値を変更しても，元の変数の値には影響を与えません．つまり，関数が引数の値をローカルで操作するだけで，外部の変数には影響を与えないため，安全性が高いと言えます．</p>
+<p>関数の引数を定義する際，変数名の前に <code>&amp;</code> を付けると参照渡しになります．参照渡しでは，引数として変数のアドレスが渡されます．このため，関数内で引数の値を変更すると元の変数の値も変更されます．これにより関数が外部の変数を直接操作できるようになりますが，誤って変数の値を変更するリスクも伴います．</p>
+<pre data-role="codeBlock" data-info="c++" class="language-cpp c++"><code><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;iostream&gt;</span></span>
+
+<span class="token comment">// x: 値渡し，y: 参照渡し</span>
+<span class="token keyword keyword-void">void</span> <span class="token function">update</span><span class="token punctuation">(</span><span class="token keyword keyword-int">int</span> x<span class="token punctuation">,</span> <span class="token keyword keyword-int">int</span> <span class="token operator">&amp;</span>y<span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token operator">++</span>x<span class="token punctuation">;</span> <span class="token comment">// この変更は関数の外に影響を与えない</span>
+    <span class="token operator">++</span>y<span class="token punctuation">;</span> <span class="token comment">// 元の変数の値を変更</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword keyword-int">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token keyword keyword-int">int</span> a <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+    <span class="token keyword keyword-int">int</span> b <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+    <span class="token function">update</span><span class="token punctuation">(</span>a<span class="token punctuation">,</span> b<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    std<span class="token double-colon punctuation">::</span>cout <span class="token operator">&lt;&lt;</span> a <span class="token operator">&lt;&lt;</span> std<span class="token double-colon punctuation">::</span>endl<span class="token punctuation">;</span> <span class="token comment">// 0</span>
+    std<span class="token double-colon punctuation">::</span>cout <span class="token operator">&lt;&lt;</span> b <span class="token operator">&lt;&lt;</span> std<span class="token double-colon punctuation">::</span>endl<span class="token punctuation">;</span> <span class="token comment">// 1</span>
+    <span class="token keyword keyword-return">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre><p>参照渡しはコピーにコストがかかるような大きなデータ構造やクラスを扱う場合に重宝します．</p>
+<h2 id="コマンドライン引数">コマンドライン引数 </h2>
+<p>ターミナルからコンパイルしたプログラムを実行する際，引数を渡すことができる．そのために，<code>main</code>関数に次の引数を追加する．</p>
+<ul>
+<li><code>argc</code>：コマンドライン引数の数が格納される</li>
+<li><code>argv</code>：コマンドライン引数の配列で，<code>argv[0]</code> には実行ファイル名，<code>argv[1]</code> から <code>argv[argc-1]</code> までの各要素には，コマンドラインで指定された引数が格納される．</li>
+</ul>
+<pre data-role="codeBlock" data-info="c++" class="language-cpp c++"><code><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;iostream&gt;</span></span>
+<span class="token keyword keyword-int">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token keyword keyword-int">int</span> argc<span class="token punctuation">,</span> <span class="token keyword keyword-char">char</span> <span class="token operator">*</span>argv<span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token keyword keyword-for">for</span> <span class="token punctuation">(</span><span class="token keyword keyword-int">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> argc<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span>
+    <span class="token punctuation">{</span>
+        std<span class="token double-colon punctuation">::</span>cout <span class="token operator">&lt;&lt;</span> i <span class="token operator">&lt;&lt;</span> <span class="token string">": "</span> <span class="token operator">&lt;&lt;</span> argv<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">&lt;&lt;</span> std<span class="token double-colon punctuation">::</span>endl<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword keyword-return">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre><p><code>char *argv[]</code> を理解するにはポインタの知識が必要になります．本稿ではポインタは解説しませんので，おまじないと思って受け入れてください．</p>
+<p>これをコンパイルして実行すると次のようになります．</p>
+<pre data-role="codeBlock" data-info="sh" class="language-bash sh"><code>$ ./a.out arg1 arg2
+<span class="token number">0</span>: ./a.out
+<span class="token number">1</span>: arg1
+<span class="token number">2</span>: arg2
+</code></pre><h2 id="課題複利計算">課題：複利計算 </h2>
+<p>元金 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>x</mi></mrow><annotation encoding="application/x-tex">x</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">x</span></span></span></span> 円を年利 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>r</mi></mrow><annotation encoding="application/x-tex">r</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal" style="margin-right:0.02778em;">r</span></span></span></span> %で <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>t</mi></mrow><annotation encoding="application/x-tex">t</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6151em;"></span><span class="mord mathnormal">t</span></span></span></span> 年運用すると <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>x</mi><mo>×</mo><mo stretchy="false">(</mo><mn>1</mn><mo>+</mo><mfrac><mi>r</mi><mn>100</mn></mfrac><msup><mo stretchy="false">)</mo><mi>t</mi></msup></mrow><annotation encoding="application/x-tex">x\times(1+\frac{r}{100})^t</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6667em;vertical-align:-0.0833em;"></span><span class="mord mathnormal">x</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord">1</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1.1386em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.6954em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">100</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight" style="margin-right:0.02778em;">r</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mclose"><span class="mclose">)</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7936em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">t</span></span></span></span></span></span></span></span></span></span></span> 円になります．これを計算するプログラムを書いてください．満たすべき要件は下記の通りです．</p>
+<ul>
+<li><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>x</mi><mo separator="true">,</mo><mi>r</mi><mo separator="true">,</mo><mi>t</mi></mrow><annotation encoding="application/x-tex">x, r, t</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8095em;vertical-align:-0.1944em;"></span><span class="mord mathnormal">x</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal" style="margin-right:0.02778em;">r</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal">t</span></span></span></span> を非負整数とし，コマンドライン引数から受け取る</li>
+<li>コマンドライン引数の数が合わない場合は，それが分かるようにメッセージを出力する</li>
+<li><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>x</mi><mo separator="true">,</mo><mi>r</mi><mo separator="true">,</mo><mi>t</mi></mrow><annotation encoding="application/x-tex">x, r, t</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8095em;vertical-align:-0.1944em;"></span><span class="mord mathnormal">x</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal" style="margin-right:0.02778em;">r</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal">t</span></span></span></span> のいずれかが定義域外の場合も，それが分かるようにメッセージを出力する．ただし，整数以外が入力される場合は想定しなくてよい</li>
+<li>出力は複利計算の結果のみでよい</li>
+</ul>
+<p>下記をベースにプログラムを完成させてください．なお，<code>std::stoi()</code> は文字列型として受け取ったコマンドライン引数を <code>int</code> 型に変換しています．</p>
+<pre data-role="codeBlock" data-info="c++" class="language-cpp c++"><code><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;iostream&gt;</span></span>
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;string&gt;</span>  <span class="token comment">// std::stoi (文字列をint型に変換)</span></span>
+
+<span class="token comment">// calculate x*(1+r/100)^t</span>
+<span class="token keyword keyword-double">double</span> <span class="token function">fukuri</span><span class="token punctuation">(</span><span class="token keyword keyword-int">int</span> x<span class="token punctuation">,</span> <span class="token keyword keyword-int">int</span> r<span class="token punctuation">,</span> <span class="token keyword keyword-int">int</span> t<span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token keyword keyword-return">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword keyword-int">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token keyword keyword-int">int</span> argc<span class="token punctuation">,</span> <span class="token keyword keyword-char">char</span> <span class="token operator">*</span>argv<span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token comment">// input</span>
+    <span class="token keyword keyword-int">int</span> x <span class="token operator">=</span> std<span class="token double-colon punctuation">::</span><span class="token function">stoi</span><span class="token punctuation">(</span>argv<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword keyword-int">int</span> r <span class="token operator">=</span> std<span class="token double-colon punctuation">::</span><span class="token function">stoi</span><span class="token punctuation">(</span>argv<span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword keyword-int">int</span> t <span class="token operator">=</span> std<span class="token double-colon punctuation">::</span><span class="token function">stoi</span><span class="token punctuation">(</span>argv<span class="token punctuation">[</span><span class="token number">3</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    <span class="token comment">// output</span>
+    std<span class="token double-colon punctuation">::</span>cout <span class="token operator">&lt;&lt;</span> <span class="token function">fukuri</span><span class="token punctuation">(</span>x<span class="token punctuation">,</span> r<span class="token punctuation">,</span> t<span class="token punctuation">)</span> <span class="token operator">&lt;&lt;</span> std<span class="token double-colon punctuation">::</span>endl<span class="token punctuation">;</span>
+    <span class="token keyword keyword-return">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+      </div>
+      
+      
+    
+    
+    
+    
+    
+    
+  
+    </body></html>
